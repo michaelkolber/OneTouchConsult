@@ -1,0 +1,16 @@
+.signup-form input {
+  border: 1px solid lightgrey;
+  border-radius: 4px;
+  margin: 10px;
+  padding: 10px;
+  min-width: 200px; }
+.signup-form .signup-submit {
+  background-color: #00b47b;
+  margin-top: 40px;
+  font-size: 1.25em; }
+.signup-form .signup-input--half {
+  width: 45%; }
+.signup-form .signup-input--fourth {
+  width: 22.5%; }
+
+/*# sourceMappingURL=main2.css.map */
