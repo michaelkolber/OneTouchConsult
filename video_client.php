@@ -6,7 +6,7 @@
 </head>
 <body>
 	<script type="text/javascript">
-		var token = 'eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiIsImN0eSI6InR3aWxpby1mcGE7dj0xIn0.eyJqdGkiOiJTSzBmYmU3YmViMGFhMTI1ZjM2ODBiYmQ2NDNjZjM1MjkzLTE1NTQ0MjY2NDYiLCJpc3MiOiJTSzBmYmU3YmViMGFhMTI1ZjM2ODBiYmQ2NDNjZjM1MjkzIiwic3ViIjoiQUNjMTRmNmNkNTc5MjUwNGY1ZGFjMGE5Nzg1ZTI1ODZkZSIsImV4cCI6MTU1NDQzMDI0NiwiZ3JhbnRzIjp7ImlkZW50aXR5IjoiZGV2a2V5IiwidmlkZW8iOnt9fX0.0j2cjgdUpbtKji6XPeytZXi-FsRzvFc6jou_GkHjcyM'
+		var token = 'eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiIsImN0eSI6InR3aWxpby1mcGE7dj0xIn0.eyJqdGkiOiJTSzBmYmU3YmViMGFhMTI1ZjM2ODBiYmQ2NDNjZjM1MjkzLTE1NTQ0MjY2NDYiLCJpc3MiOiJTSzBmYmU3YmViMGFhMTI1ZjM2ODBiYmQ2NDNjZjM1MjkzIiwic3ViIjoiQUNjMTRmNmNkNTc5MjUwNGY1ZGFjMGE5Nzg1ZTI1ODZkZSIsImV4cCI6MTU1NDQzMDI0NiwiZ3JhbnRzIjp7ImlkZW50aXR5IjoiZGV2a2V5IiwidmlkZW8iOnt9fX0.0j2cjgdUpbtKji6XPeytZXi-FsRzvFc6jou_GkHjcyM';
 		const { connect } = require('twilio-video');
 		let username = <?php echo $_SESSION["username"]; ?>
 		connect(token, { name: username }).then(room => {
